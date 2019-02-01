@@ -1,4 +1,4 @@
 - hosts:
     - uContactDemoGroup
   tasks:
-    - action: shell ping 8.8.8.8
+    - action: shell ping -c 50 -q 8.8.8.8
