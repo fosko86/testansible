@@ -1,0 +1,4 @@
+- hosts:
+    - uContact Demo Group
+  tasks:
+    - action: ping
